@@ -1,0 +1,505 @@
+/* Overall */
+
+body{
+    color:#333;
+}
+.modal-content {
+    margin:0px;
+    padding: 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.modal-content .container{
+width:100% ;
+padding:120px 0;
+}
+
+.modal-content .row{
+    margin:0px;
+}
+
+/* Navigation Bar */
+
+/*@media (min-width:768px){
+    .navbar-default .nav li a {
+        color:#f0ad44;
+    }
+}*/
+
+
+/* Title - Header */
+
+#title h1{
+    margin:50px 0 150px 0;
+    font-size:60px;
+    color:#fff;
+
+}
+
+header { 
+    background-attachment: fixed;
+    background-image: url("../img/sherbit_hero.jpg");
+}
+
+/* Body Text*/
+
+.modal-content h1{
+    margin-bottom: 50px;
+    font-size: 6.5em;
+}
+
+.modal-body{
+    padding:0px;
+}
+
+.modal-body h2{
+    text-align:left;
+    font-size:4.5em;
+    margin-bottom:50px;
+}
+
+.modal-body h3{
+    font-size:26px;
+    margin:50px 0 40px 0;
+    text-align: left;
+}
+
+.modal-body h4 {
+    text-align:left;
+    margin-bottom:30px;
+    font-size:22px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: thin;
+}
+
+.modal-body h5{
+    font-size:20px;
+    margin:50px 0 20px 0;
+    text-align: left;
+}
+
+.modal-body p{
+    text-align:left;
+    margin-bottom: 20px;
+    font-size:22px;
+    line-height:1.6;
+}
+
+.modal-body p.tagline-margin {
+    text-align:center;
+    font-size: 22px;
+    margin-bottom:50px;
+}
+
+.modal-body p.tagline {
+    text-align:center;
+    font-size: 22px;
+    margin-bottom:0px;
+}
+
+.modal-body p.caption {
+    margin:10px 0 15px 0;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.modal-body p.caption-break{
+    margin:10px 0 50px 0;
+}
+
+.modal-body h4.subtext{
+    margin-top:20px;
+    text-align:center;
+}
+
+.modal-body p.subtext {
+    font-size:18px;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.modal-body ul{
+    padding-left:50px;
+    font-family: "Judson","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    text-align: left;
+    line-height:1.5;
+}
+
+.modal-body li {
+    margin-bottom: 20px;
+    text-align:left;
+}
+
+.col-md-4 ul{
+    margin-top:20px;
+}
+
+.proj-overview ul{
+    padding:0px;
+}
+
+.proj-overview li{
+    list-style: none;
+    font-size:18px;
+}
+
+.modal-body ul.list-inline {
+    margin: 30px 0;
+}
+
+.ul-center ul{
+    text-align:center;
+    padding:0px;
+}
+
+.montserrat {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    margin-right:-10px;
+}
+
+@media(max-width:500px) {
+.modal-body h1 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.modal-body h2{
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+}
+
+@media(max-width:991px){
+.modal-content h1{
+    margin-bottom: 15px;
+    font-size: 4em;
+}
+.modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 5em;
+}
+.modal-content img{
+    margin:20px 0 0 0;
+}
+
+.modal-body h1 {
+    font-size: 4em;
+}
+
+.modal-body h2{
+    font-size: 4em;
+}
+
+.modal-body h4{
+    margin-bottom:0px;
+    border-bottom:none;
+}
+}
+/*Footer*/
+#conclusion{
+padding:120px 0 50px 0;
+}
+
+
+/*Spacing and Images*/
+.modal-body img {
+    width: 100%;
+    margin: 50px 0 5px 0;
+}
+
+.col-img .col-md-4{
+    padding:0 10px 0 0;
+    margin-top:-20px;
+}
+
+.col-img .col-md-4 .icon{
+    margin-top:40px;
+}
+
+.col-md-4 img{
+    padding:0px;
+}
+
+.col-md-6 {
+    padding:0 10px 0 0;
+}
+
+.col-md-6 img{
+    padding:-20px 0;
+}
+
+.col-md-3 .icon{
+    height:50px;
+    width:auto;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+.col-md-4 .icon{
+    height:50px;
+    width:auto;
+    margin: 50px auto 20px auto;
+}
+
+.col-md-6 .icon{
+    height:50px;
+    width:auto;
+    margin: 0 auto;
+    margin: 30px auto 20px auto;
+}
+
+.col-md-6 p{
+    padding:0 20px;
+}
+
+.border {
+    border:solid;
+    border-color:#222;
+    border-width: thin;
+}
+
+#sherbit-logo{
+    width:100px;
+    height:auto;
+    margin:50px auto;
+}
+
+.short-span{
+    height:300px;
+    overflow:hidden;
+}
+
+.short-span img{
+    margin:30px 0 0 0;
+}
+
+@media(min-width:650px){
+.col-lg-offset-2{
+    margin:0 16.666667%;
+}
+.col-lg-8{
+    width:66.66666667%;
+}
+}
+
+@media(max-width:991px){
+#define .border{
+    border:none;
+}
+
+.bottom-border{
+    border-bottom-style: solid;
+    border-bottom-color: #777;
+    border-bottom-width: thin;
+    padding-bottom:50px;
+}
+
+#define .bottom-border{
+    padding-bottom:50px;
+}
+
+#scope .bottom-border{
+    padding-bottom:25px;
+    margin-bottom:50px;
+}
+}
+
+@media(max-width:991px){
+.col-lg-offset-2{
+    margin:0 4.6666667%;
+}
+.col-lg-8{
+    width:91.66666667%;
+}
+.modal-content .container{
+width:100% ;
+padding:75px 0;
+}
+
+.modal-body img{
+    margin:20px 0 5px 0;
+}
+
+#margin-50{
+    margin:50px 0 0 0;
+}
+}
+
+
+/* Sticky Menu Bar */
+
+.menu {
+    height:60px;
+    width:100%;
+    z-index:500;
+    background-color:transparent;
+}
+
+.menu .navbar{
+    margin:0px;
+}
+
+.menu .navbar-default{
+    padding:0px;
+    background-color: transparent;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+    background-color:#fcd136;
+}
+
+.fixed li a{
+    font-color:#777;
+}
+
+.menu .navbar-fixed-top{
+    position:relative;
+}
+
+.menu .navbar-default .navbar-nav>.active>a {
+  color: #777;
+    background-color:#fcd136;
+}
+
+.menu .navbar-default .navbar-toggle{
+    margin:0;
+    padding:0;
+    background-color:#fcd136;
+    width:100%;
+    border:none;
+}
+
+.menu .navbar-header .nav {
+    background-color:#fcd136;
+    padding:0;
+}
+
+.menu .navbar-header .nav ul{
+    width:100%;;
+}
+.menu .navbar-default .nav li a{
+    display:none;
+    padding:15px 0;
+}
+
+.menu .navbar-brand{
+    display:inline;
+    color:#fff;
+    margin-left:4.66666%;
+    padding:15px 0;
+    position:absolute;
+}
+
+.menu .scroll-up{
+    position:absolute;
+    color:#000;
+    margin-left:90%;
+    padding:15px;
+}
+
+.menu .navbar-default .navbar-nav>.active>a{
+    color:#000;
+    display:inline-block;
+}
+
+.overflow{
+    width:100%;
+    height:500px;
+    overflow:scroll;
+    margin-top:50px;
+}
+
+.overflow img{
+    margin:0;
+}
+
+blockquote{
+  margin: 50px 0 50px 50px;
+  padding-left: 50px;
+  border-left: 5px solid #fcd136;
+  text-align:left;
+  font-style: italic;
+  font-size:2em;
+  font-family: "Judson","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media(min-width:768px){
+.menu{
+    display:none;
+}
+
+.menu .scroll-up{
+    display:none;
+}
+
+.menu .navbar-default{
+    background-color:#000;
+}
+
+.menu .navbar-default .nav li a{
+    display:block;
+    font-size:13px;
+    padding-right:13px;
+    color:#999;
+}
+
+.menu .navbar-default .navbar-nav>.active>a{
+    color:#fff;
+}
+
+@media(min-width:991px){
+
+.menu .navbar-default .nav li a{
+    font-size:14px;
+    padding:20px 30px 20px 0px;
+}
+}
+
+/* Scroll Up */
+.scrollup {
+    z-index: 500;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background: /*url('img/scroll-up.png') no-repeat*/ #f0ad44;
+    color: #fff;
+    line-height: 55px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+}
+
+.scrollup:hover,
+.scrollup:focus,
+.scrollup:active,
+.scrollup.active,
+.open .dropdown-toggle.btn-primary {
+    text-decoration:none;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
